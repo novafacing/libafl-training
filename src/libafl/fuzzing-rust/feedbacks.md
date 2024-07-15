@@ -10,7 +10,7 @@ although many common cases are implemented by default.
 For example, the
 [`AflMapFeedback`](https://docs.rs/libafl/latest/libafl/feedbacks/map/type.AflMapFeedback.html)
 implements the interestingness determination used by AFL and AFL++ given the state of a
-[`HitcountsMapObserver`](https://docs.rs/libafl/latest/libafl/observers/map/struct.HitcountsMapObserver.html).
+[`HitcountsMapObserver`](https://docs.rs/libafl/latest/libafl/observers/map/hitcount_map/struct.HitcountsMapObserver.html).
 
 The interestingness determination from each feedback is used to determine whether a
 testcase should be kept, and further mutated, or discarded. The 
