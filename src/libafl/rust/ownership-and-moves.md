@@ -3,6 +3,7 @@
 To start understanding ownership and moves, we'll look at this function:
 
 ```rust
+#[no_mangle]
 pub fn decode(mut encoded_input: &[u8]) -> Vec<u8> {
     Vec::new()
 }

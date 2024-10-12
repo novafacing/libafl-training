@@ -12,7 +12,7 @@ stage with our just-created havoc mutator.
 Add the declaration:
 
 ```rust
-use std::stages::StdMutationalStage;
+use libafl::stages::StdMutationalStage;
 ```
 
 And add the mutational stage. Notice that once again, we have a `tuple_list` of one

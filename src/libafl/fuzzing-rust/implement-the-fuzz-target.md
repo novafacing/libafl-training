@@ -4,6 +4,7 @@ Now that we know what a *slice* is, we can implement our function. Remember our
 function skeleton from our `lib.rs`:
 
 ```rust
+#[no_mangle]
 pub fn decode(mut encoded_input: &[u8]) -> Vec<u8> {
     Vec::new()
 }

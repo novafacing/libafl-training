@@ -11,7 +11,8 @@ a tuple of observers to pass in. In our case, we only have one, so we create a t
 of one value.
 
 ```rust
-use libafl::prelude::{InProcessExecutor, tuple_list};
+use libafl::prelude::InProcessExecutor;
+use libafl_bolts::tuples::tuple_list;
 ```
 
 Then create the executor:

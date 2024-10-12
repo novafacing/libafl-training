@@ -1,7 +1,7 @@
 # Summary
 
 You can view the completed source for the fuzzer
-[here]().
+[here](https://github.com/novafacing/practical-fuzzing/blob/main/src/libafl/fuzzing-rust/).
 
 In this exercise, we learned:
 

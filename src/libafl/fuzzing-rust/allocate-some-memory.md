@@ -16,6 +16,7 @@ use std::{
 
 const DEFAULT_BUFFER_SIZE: usize = 128;
 
+#[no_mangle]
 pub fn decode(encoded_input: &[u8]) -> Vec<u8> {
     let decoded_len = DEFAULT_BUFFER_SIZE +
         encoded_input.len() - (encoded_input.iter().filter(|c| **c == b'%').count() * 2);
