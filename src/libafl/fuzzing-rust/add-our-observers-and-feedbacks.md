@@ -44,7 +44,7 @@ fn main() {
 
     let counters_observer =
         HitcountsIterableMapObserver::new(unsafe { counters_maps_observer("counters-maps") });
-    let counters_feedback = AflMapFeedback::new(&counters_observer);
+    let mut counters_feedback = AflMapFeedback::new(&counters_observer);
 
     let mut objective = CrashFeedback::new();
 }

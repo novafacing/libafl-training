@@ -4,7 +4,8 @@ Before we can write our closure, we'll need to add a few `use` declarations from
 `libafl`. Add these at the top of your `main.rs` file:
 
 ```rust
-use libafl::prelude::{BytesInput, AsSlice, HasTargetBytes, ExitKind};
+use libafl::prelude::{BytesInput, HasTargetBytes, ExitKind};
+use libafl_bolts::AsSlice;
 ```
 
 [`BytesInput`](https://docs.rs/libafl/latest/libafl/inputs/bytes/struct.BytesInput.html)
